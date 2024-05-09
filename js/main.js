@@ -17,3 +17,23 @@ lottie.loadAnimation({
   autoplay: true, // 自動再生させるか
   path: "philosophy.json"
 });
+
+
+
+$(function () {
+  // Lottieプレーヤーを取得
+  var lottiePlayer = document.getElementById('lottie');
+
+  // icon-block要素を取得
+  var iconBlock = document.getElementById('lottie01');
+
+  // ホバー時にアニメーションを再生
+  lottie01.addEventListener('mouseenter', function() {
+    lottie.play();
+  });
+
+  // ホバーが外れたらアニメーションを停止
+  lottie01.addEventListener('mouseleave', function() {
+    lottie.stop();
+  });
+});
