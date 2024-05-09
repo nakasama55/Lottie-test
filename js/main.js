@@ -12,7 +12,7 @@ lottie.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '../../animation/webdesign_hover.json'
+  path: '../animation/webdesign_hover.json'
 });
 
 $(function () {
