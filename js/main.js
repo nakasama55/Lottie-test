@@ -11,8 +11,8 @@ lottie.loadAnimation({
   container: document.getElementById('Toki'),
   renderer: 'svg',
   loop: true,
-  autoplay: false,
-  path: 'data.json'
+  autoplay: true,
+  path: '../animation/webdesign_hover.json'
 });
 
 $(function () {
