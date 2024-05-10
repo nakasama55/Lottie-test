@@ -29,11 +29,11 @@ $(function () {
 
   // ホバー時にアニメーションを再生
   iconBlock.addEventListener('mouseenter', function() {
-    lottie.play();
+    lottiePlayer.play();
   });
 
   // ホバーが外れたらアニメーションを停止
   iconBlock.addEventListener('mouseleave', function() {
-    lottie.stop();
+    lottiePlayer.stop();
   });
 });
