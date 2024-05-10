@@ -20,20 +20,20 @@ lottie.loadAnimation({
 
 
 
-$(function () {
+//$(function () {
   // Lottieプレーヤーを取得
-  var lottiePlayer = document.getElementById('L-anim');
+  //var lottiePlayer = document.getElementById('L-anim');
 
   // icon-block要素を取得
-  var iconBlock = document.getElementById('lottie01');
+  //var iconBlock = document.getElementById('lottie01');
 
   // ホバー時にアニメーションを再生
-  iconBlock.addEventListener('mouseenter', function() {
-    lottiePlayer.play();
-  });
+  //iconBlock.addEventListener('mouseenter', function() {
+  //  lottiePlayer.play();
+  //});
 
   // ホバーが外れたらアニメーションを停止
-  iconBlock.addEventListener('mouseleave', function() {
-    lottiePlayer.stop();
-  });
-});
+  //iconBlock.addEventListener('mouseleave', function() {
+  //  lottiePlayer.stop();
+  //});
+//});
