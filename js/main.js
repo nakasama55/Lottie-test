@@ -17,12 +17,12 @@ lottie.loadAnimation({
 
 $(function () {
   // ホバー時にアニメーションを再生
-  testoki.addEventListener('mouseenter', function() {
+  lottie01.addEventListener('mouseenter', function() {
     lottie01.play();
   });
 
   // ホバーが外れたらアニメーションを停止
-  testoki.addEventListener('mouseleave', function() {
+  lottie01.addEventListener('mouseleave', function() {
     lottie01.stop();
   });
 });
