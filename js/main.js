@@ -7,7 +7,7 @@ lottie.loadAnimation({
   renderer: "svg", // svg、canvas、htmlの設定ができ、html側で生成されるタグが変わる
   loop: true, // アニメーションを繰り返し再生させるか
   autoplay: true, // 自動再生させるか
-  path: "webdesign_hover.json", // JSONファイルのパス
+  path: "/js/webdesign_hover.json", // JSONファイルのパス
 });
 
 // Lottieアニメーション2番目
@@ -17,5 +17,5 @@ lottie.loadAnimation({
   renderer: "svg", // svg、canvas、htmlの設定ができ、html側で生成されるタグが変わる
   loop: true, // アニメーションを繰り返し再生させるか
   autoplay: true, // 自動再生させるか
-  path: "philosophy.json", // JSONファイルのパス
+  path: "/js/philosophy.json", // JSONファイルのパス
 });
