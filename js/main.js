@@ -17,3 +17,4 @@ lottie.loadAnimation({
   autoplay: true, // 自動再生させるか
   path: "philosophy.json"
 });
+
