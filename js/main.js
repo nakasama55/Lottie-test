@@ -16,12 +16,6 @@ lottie.loadAnimation({
 
 
 $(function () {
-  // Lottieプレーヤーを取得
-  var lottiePlayer = document.getElementById('lottie01');
-
-  // icon-block要素を取得
-  var iconBlock = document.getElementById('testoki');
-
   // ホバー時にアニメーションを再生
   testoki.addEventListener('mouseenter', function() {
     lottie01.play();
