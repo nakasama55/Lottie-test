@@ -1,7 +1,7 @@
 lottie.loadAnimation({
   container: document.getElementById('lottie01'), // アニメーションをさせたいdivなどhtml要素ににつけた名前
   renderer: 'svg',
-  loop: true,
+  loop: false,
   autoplay: false,
   path: 'philosophy.json', // JSONファイルのパス
 });
@@ -9,7 +9,7 @@ lottie.loadAnimation({
 lottie.loadAnimation({
   container: document.getElementById('lottie02'), // アニメーションをさせたいdivなどhtml要素ににつけた名前
   renderer: 'svg',
-  loop: true,
+  loop: false,
   autoplay: false,
   path: 'anim/history.json', // JSONファイルのパス
 });
