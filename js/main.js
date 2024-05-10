@@ -17,18 +17,18 @@ lottie.loadAnimation({
 
 $(function () {
   // Lottieプレーヤーを取得
-  var lottiePlayer = document.getElementById('lottie');
+  var lottiePlayer = document.getElementById('lottie01');
 
   // icon-block要素を取得
   var iconBlock = document.getElementById('testoki');
 
   // ホバー時にアニメーションを再生
   testoki.addEventListener('mouseenter', function() {
-    lottie.play();
+    lottie01.play();
   });
 
   // ホバーが外れたらアニメーションを停止
   testoki.addEventListener('mouseleave', function() {
-    lottie.stop();
+    lottie01.stop();
   });
 });
