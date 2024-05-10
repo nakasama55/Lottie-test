@@ -16,13 +16,16 @@ lottie.loadAnimation({
 
 
 $(function () {
+  
+  var iconBlock = document.getElementById('space01');
+
   // ホバー時にアニメーションを再生
-  space01.addEventListener('mouseenter', function() {
+  iconBlock.addEventListener('mouseenter', function() {
     lottie01.play();
   });
 
   // ホバーが外れたらアニメーションを停止
-  space01.addEventListener('mouseleave', function() {
+  iconBlock.addEventListener('mouseleave', function() {
     lottie01.stop();
   });
 });
